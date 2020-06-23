@@ -4,11 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Search from './pages/search';
-import Nav from './components/nav';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nav />
     <Search />
   </React.StrictMode>,
   document.getElementById('root')
